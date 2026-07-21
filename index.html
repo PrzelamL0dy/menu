@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Przełam Lody Cafe - Menu</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+    <style>
+
+        *{
+            margin:0;
+            padding:0;
+            box-sizing:border-box;
+        }
+
+        body{
+            font-family:'Poppins',sans-serif;
+            background:linear-gradient(135deg,#FFF8F2,#F7E6D6);
+            min-height:100vh;
+            display:flex;
+            justify-content:center;
+            align-items:center;
+            padding:20px;
+        }
+
+        .container{
+            width:100%;
+            max-width:430px;
+            background:white;
+            border-radius:28px;
+            padding:45px 35px;
+            text-align:center;
+            box-shadow:0 20px 45px rgba(0,0,0,.12);
+        }
+
+        .logo{
+            font-size:72px;
+            margin-bottom:10px;
+        }
+
+        h1{
+            color:#6E3C22;
+            font-size:32px;
+            margin-bottom:10px;
+        }
+
+        .subtitle{
+            color:#777;
+            line-height:1.6;
+            margin-bottom:35px;
+            font-size:17px;
+        }
+
+        .button{
+            display:block;
+            width:100%;
+            text-decoration:none;
+            background:#7B4A2F;
+            color:white;
+            padding:18px;
+            border-radius:16px;
+            margin:15px 0;
+            font-size:20px;
+            font-weight:600;
+            transition:.25s;
+        }
+
+        .button:hover{
+            background:#5F3824;
+            transform:translateY(-2px);
+        }
+
+        .footer{
+            margin-top:35px;
+            color:#999;
+            font-size:14px;
+        }
+
+        @media(max-width:500px){
+
+            .container{
+                padding:35px 25px;
+            }
+
+            h1{
+                font-size:28px;
+            }
+
+            .button{
+                font-size:18px;
+            }
+
+        }
+
+    </style>
+
+</head>
+
+<body>
+
+<div class="container">
+
+    <div class="logo">🍦</div>
+
+    <h1>Przełam Lody Cafe</h1>
+
+    <p class="subtitle">
+        Wybierz język menu<br>
+        <strong>Choose your menu language</strong>
+    </p>
+
+    <a class="button"
+       href="https://TUTAJ_WKLEJ_LINK_DO_POLSKIEGO_MENU"
+       target="_blank">
+        🇵🇱 MENU POLSKIE
+    </a>
+
+    <a class="button"
+       href="https://TUTAJ_WKLEJ_LINK_DO_ANGIELSKIEGO_MENU"
+       target="_blank">
+        🇬🇧 ENGLISH MENU
+    </a>
+
+    <div class="footer">
+        Miłego dnia! 🍨<br>
+        Have a sweet day!
+    </div>
+
+</div>
+
+</body>
+</html>
